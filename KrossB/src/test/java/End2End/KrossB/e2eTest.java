@@ -30,6 +30,8 @@ public class e2eTest {
 	public void loginfb() {
 		driver.get("https://www.facebook.com");
 		System.out.println(driver.getTitle());
+		System.out.println("log in");
+		
 	}
 
 }
